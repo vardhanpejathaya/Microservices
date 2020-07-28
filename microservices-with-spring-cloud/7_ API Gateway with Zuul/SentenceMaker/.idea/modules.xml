@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Adjective/Adjective.iml" filepath="$PROJECT_DIR$/Adjective/Adjective.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Article/Article.iml" filepath="$PROJECT_DIR$/Article/Article.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Config-server/Config-server.iml" filepath="$PROJECT_DIR$/Config-server/Config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Eureka-server/Eureka-server.iml" filepath="$PROJECT_DIR$/Eureka-server/Eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Noun/Noun.iml" filepath="$PROJECT_DIR$/Noun/Noun.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sentence/Sentence.iml" filepath="$PROJECT_DIR$/Sentence/Sentence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SentenceMaker.iml" filepath="$PROJECT_DIR$/SentenceMaker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Subject/Subject.iml" filepath="$PROJECT_DIR$/Subject/Subject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Verb/Verb.iml" filepath="$PROJECT_DIR$/Verb/Verb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zulu-gateway/Zulu-gateway.iml" filepath="$PROJECT_DIR$/Zulu-gateway/Zulu-gateway.iml" />
+    </modules>
+  </component>
+</project>

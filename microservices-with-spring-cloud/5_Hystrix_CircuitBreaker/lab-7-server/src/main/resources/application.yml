@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: configurationServer
+  cloud:
+    config:
+      server:
+        git:
+          uri: file:///D:/Wipro/My Study/Microservices/microservices-with-spring-cloud/GitFiles
+server:
+  port: 8002

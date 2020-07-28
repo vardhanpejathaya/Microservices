@@ -1,0 +1,11 @@
+Go to Application.java. Create a new @Bean method that instantiates and returns a new RestTemplate. The @Bean method should also be annotated with @LoadBalanced - this will associate the RestTemplate with Ribbon. Code should look something like this:
+
+  //  This "LoadBalanced" RestTemplate 
+  //  is automatically hooked into Ribbon:
+  @Bean @LoadBalanced
+  RestTemplate restTemplate() {
+      return new RestTemplate();
+  }  
+  
+  
+  @LoadBalanced -- used for client side loadbalancing.

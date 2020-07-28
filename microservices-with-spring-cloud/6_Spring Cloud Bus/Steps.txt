@@ -1,0 +1,47 @@
+Part 1 - The Broker:
+====================
+1.Download Rabbit MQ from https://www.rabbitmq.com/download.html. Use appropriate distribution for your platform.
+
+2.Launch Rabbit MQ and leave it running.
+
+Part 2 - The Server(config server):
+===================================
+
+project name: lab-8-server
+
+1. Add below 2 dependencies :
+
+<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-bus-amqp</artifactId>
+</dependency>
+
+<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+</dependency>
+
+2. Enable managment endpoint url for actuator(bus-refresh ):
+
+Add below line in properies or yml file:
+management.endpoints.web.exposure.include: health,info,bus-refresh 
+
+3. Save your work and run the lab-8-config-server.
+
+
+Part 3 - The Client(config client)
+==================================
+1. Add below 2 dependencies :
+
+<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-bus-amqp</artifactId>
+</dependency>
+
+<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+</dependency>
+
+
+Reference: https://github.com/kennyk65/Microservices-With-Spring-Student-Files/blob/master/LabInstructions/Lab%208.md

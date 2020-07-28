@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Verb" />
+        <module name="Eureka-server" />
+        <module name="Config-server" />
+        <module name="Subject" />
+        <module name="Sentence" />
+        <module name="Zulu-gateway" />
+        <module name="Article" />
+        <module name="Adjective" />
+        <module name="Noun" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Adjective" target="1.8" />
+      <module name="Article" target="1.8" />
+      <module name="Config-server" target="1.8" />
+      <module name="Eureka-server" target="1.8" />
+      <module name="Noun" target="1.8" />
+      <module name="Sentence" target="1.8" />
+      <module name="SentenceMaker" target="1.8" />
+      <module name="Subject" target="1.8" />
+      <module name="Verb" target="1.8" />
+      <module name="Zulu-gateway" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Adjective" options="-parameters" />
+      <module name="Article" options="-parameters" />
+      <module name="Config-server" options="-parameters" />
+      <module name="Eureka-server" options="-parameters" />
+      <module name="Noun" options="-parameters" />
+      <module name="Sentence" options="-parameters" />
+      <module name="Subject" options="-parameters" />
+      <module name="Verb" options="-parameters" />
+      <module name="Zulu-gateway" options="-parameters" />
+    </option>
+  </component>
+</project>

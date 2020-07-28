@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: configurationServer
+  cloud:
+    config:
+      server:
+        git:
+          uri: file:///D:/Wipro/My Study/Microservices/microservices-with-spring-cloud/6_Spring Cloud Bus/gitFiles
+server:
+  port: 8181
+
+#management:
+ # endpoints:
+  #  web:
+   #   exposure:
+    #    include: health,info,bus-refresh

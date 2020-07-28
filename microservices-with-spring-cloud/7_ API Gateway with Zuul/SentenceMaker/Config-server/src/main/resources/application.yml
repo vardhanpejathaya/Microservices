@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: configurationServer
+  cloud:
+    config:
+      server:
+        git:
+          uri: file:///D:/Wipro/My Study/Microservices/microservices-with-spring-cloud/7_ API Gateway with Zuul/SentenceMaker/GitFiles
+server:
+  port: 8002
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8010/eureka
